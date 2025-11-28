@@ -10,6 +10,7 @@ cmake --build build
 ```
 ### Optionally add:
 1.  Build Arch-
+    #### VS generators only
     - You can do this by adding the '-A' (architecture) flag to the CMake build command.
 ```sh
 cmake -S . -B build -A x64
