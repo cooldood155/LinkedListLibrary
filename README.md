@@ -16,13 +16,13 @@ cmake -S . -B build -A x64
 ```
 
 2.  Build Configuration (build/debug)
-    -- If you use Ninja / Unix Makefiles add the CMake build type variable to your command:
+    - If you use Ninja / Unix Makefiles add the CMake build type variable to your command:
     ```sh
     cmake -S . -B  build -DCMAKE_BUILD_TYPE=Release
     cmake --build build
     ```
 
-    -- If you use Visual Studio generator or Ninja Multi-Config:
+    - If you use Visual Studio generator or Ninja Multi-Config:
     ```sh
     cmake -S . -B build
     cmake --build build --config Release
